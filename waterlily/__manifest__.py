@@ -1,10 +1,9 @@
 {
    "name":  "water lily",
    "version":   "2.0",
-   "website":   "https://www.odoo.com/app/project",
    "category":  "Service/view menu",
    "sequence":  20,
-   "summary":   "make your own website :)", 
+   "summary":   "my experimental module :)", 
    "depends":   [
         "point_of_sale",
         "base_setup",
@@ -15,5 +14,8 @@
         "digest",
         "rating",
    ],
-    
+    "images": [
+        "static/description/banner.png",
+        "static/theme_screenshot.png"
+    ]
 }
