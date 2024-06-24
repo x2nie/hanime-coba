@@ -1,0 +1,37 @@
+body{
+    margin:0;
+}
+div.app-container{
+    border:2px solid rgb(255, 170, 213);
+}
+.fixed-header .app-header {
+    position: fixed;
+    padding-top: 60px;
+    margin-top: 30px;
+    font-size: 70px;
+    font-variant-alternates: historical-forms;
+    width: 100%;
+    top: 0;
+    background:rgba(0, 174, 255, 0.815);
+}
+.app-main {
+    flex: 1;
+    display: flex;
+    z-index: 8;
+    position: relative;
+        padding-top: 60px;
+        border:4px dashed rgb(170, 238, 130);
+}
+.app-sidebar {
+    width: 280px;
+    display: flex;
+    z-index: 11;
+    overflow: hidden;
+    min-width: 280px;
+    position: relative;
+    flex: 0 0 280px;
+    margin-top: -60px;
+    padding-top: 60px;
+    transition: all .2s;
+    border:2px solid blue;
+}

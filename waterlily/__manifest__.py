@@ -16,6 +16,12 @@
         "digest",
         "rating",
    ],
+   'assets': {
+        'web.assets_backend': [
+            "waterlily/static/lib/**/*.css",
+            "waterlily/static/src/style.css",
+        ]
+   },
     "images": [
         "static/description/banner.png",
         "static/theme_screenshot.png"
