@@ -16,6 +16,9 @@
         "digest",
         "rating",
    ],
+   "data":  [
+         "views/res_config_settings.xml"  
+   ],
    'assets': {
         'web.assets_backend': [
             "waterlily/static/lib/**/*.css",

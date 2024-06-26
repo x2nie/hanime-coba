@@ -1,3 +1,35 @@
 body{
     font-family: Vallite;
+    font-family: Multicolore;
+    font-family: London_between;
+    font-family: Days;
+}
+header.o_navbar {
+    background: url(/waterlily/static/description/banner.png);
+    background: url(/waterlily/static/description/navbar_bg2.png);
+    background: url(/waterlily/static/description/navbar_bg3.png);
+    position: relative;
+}
+nav.o_main_navbar{
+        /* background: url(/waterlily/static/description/banner.png); */
+        --NavBar-entry-color: ivory;
+        background: transparent;
+        /* backdrop-filter: blur(6px); */
+}
+/* nav.o_main_navbar *{
+    backdrop-filter: none;
+} */
+header.o_navbar::before {
+    content: '';
+    /* background: red; */
+    position: absolute;
+    inset: 0;
+    height: inherit;
+    backdrop-filter: blur(5px);
+}
+
+.o_main_navbar .o_menu_sections .o_nav_entry, 
+.o_main_navbar .o_menu_sections .dropdown-toggle {
+    background: transparent;
+
 }
